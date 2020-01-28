@@ -1,0 +1,46 @@
+.parent-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.block {
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.intro {
+  background: #efdefe;
+}
+.work {
+  background: #a3f3d3;
+  /* background: url("./assets/code-matrix.jpg") no-repeat;
+  background-size: cover; */
+}
+.experience {
+  background: #0bbaa0;
+  /* background: url("./assets/coder.jpg") no-repeat;
+  background-size: cover; */
+}
+.fun {
+  /* background: url("./assets/eat-slp-cd-rpt.jpg") no-repeat;
+  background-size: cover; */
+  background: #00dfdf;
+}
